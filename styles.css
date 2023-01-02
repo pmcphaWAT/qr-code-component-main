@@ -15,6 +15,10 @@
   margin-right: auto;
 }
 
+html, body{
+  height: 100%;
+}
+
 body {
   background-color: var(--lightgrey);
 }
@@ -41,6 +45,9 @@ body {
 }
 
 .qr-card {
+  position: absolute;
+  left: 50%;
+  top: 50%;
   margin: auto;
   width: 300px;
   background-color: var(--white);
